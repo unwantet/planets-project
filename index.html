@@ -2,45 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planets</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <p>THE PLANETS</p>
-            <ul>
-                <li>mercury</li>
-                <li>mercury</li>
-                <li>earth</li>
-                <li>mars</li>
-                <li>jupiter</li>
-                <li>saturn</li>
-                <li>uranus</li>
-                <li>neptune</li>
-            </ul>
-        </nav>
-        <div class="line"></div>
-    </header>
-    <main>
-        <div class="img_sec">
-            <img src="static/images/svg/1.svg" alt="mercury">
-        </div>
-        <section>
-            <h1>mercury</h1>
-            <p>Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.</p>
-            <p>Source : Wikipedia</p>
-            <div class="btns">
-                <button class="first"><p>01 <span>OVERVIEW</span></p></button>
-                <button class="second"><p>02<span>Internal Structure</span></p></button>
-                <button class="second"><p>03<span>Surface Geology</span></p></button>
+            <div class="container">
+                <div class="nav_wrapper">
+                    <h1 class="logo_text">THE PLANETS</h1>
+                    <ul class="items">
+                        <li class="item"><a class="linklar" href="/nevus.html">mercury</a></li>
+                        <li class="item"><a class="linklar" href="">venus</a></li>
+                        <li class="item"><a class="linklar" href="">earth</a></li>
+                        <li class="item"><a class="linklar" href="">mars</a></li>
+                        <li class="item"><a class="linklar" href="">jupiter</a></li>
+                        <li class="item"><a class="linklar" href="">saturn</a></li>
+                        <li class="item"><a class="linklar" href="">uranus</a></li>
+                        <li class="item"><a class="linklar" href="">neptune</a></li>
+                    </ul>
+                </div>
             </div>
-        </section>
-    </main>
+        </nav>
+        <div class="container">
+            <div class="wrapper1">
+                <div class="left_block">
+                    <img class="left_img" src="/static/1.1png.png" alt="rasim">
+                </div>
+                <div class="right_block">
+                    <h1 class="right_name">mercury</h1>
+                    <p class="right_text">Mercury is the smallest planet in the Solar <br> System and the closest to the Sun. Its orbit <br> around the Sun takes 87.97 Earth days, the <br> shortest of all the Sun's planets. Mercury is one <br> of four terrestrial planets in the Solar System, <br> and is a rocky body like Earth.</p>
+                    <h2 class="right_link_name" >Source : <a class="right_link" href="">Wikipedia</a></h2>
+                    <div class="buttom_wrapper">
+                        <div class="active">
+                            <div class="btn_wrapper1">
+                                <h1 class="btn_class1">01</h1>
+                                <h1 class="btn_name1">OVERVIEW</h1>
+                            </div>
+                        </div>
+                        <div class="right_btn2">
+                            <div class="btn_wrapper2">
+                                <h1 class="btn_class2">02</h1>
+                                <h1 class="btn_name2">Internal Structure</h1>
+                            </div>
+                        </div>
+                        <div class="right_btn3">
+                            <div class="btn_wrapper3">
+                                <h1 class="btn_class3">03</h1>
+                                <h1 class="btn_name3">Surface Geology</h1>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="elems">
+                    <div class="cards">
+                        <div class="first_card">
+                            <p class="first_cardtext">ROTATION TIME</p>
+                            <h1 class="first_carddata">58.6 days</h1>
+                        </div>
+                        <div class="sec_card">
+                            <p class="sec_cardtext">REVOLUTION TIME</p>
+                            <h1 class="sec_carddata">87.97 days</h1>
+                        </div>
+                        <div class="third_card">
+                            <p class="third_cardtext">radius</p>
+                            <h1 class="third_carddata">2,439.7 km</h1>
+                        </div>
+                        <div class="last_card">
+                            <p class="last_cardtext">AVERAGE TEMP.</p>
+                            <h1 class="last_carddata">430°c</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="/app.js"></script>
 </body>
 </html>
